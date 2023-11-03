@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GUESS THE NUMBER</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <h1 class="guess">GUESS THE NUMBER</h1>
+      <p id="startText" class="start-text">start guessing 😈</p>
+    </div>
+    <div class="game-area">
+      <div class="random-num">
+        <span id="randomNum">?</span>
+      </div>
+      <div class="palying-area">
+        <div class="palyer-zone">
+          <div class="input-area">
+            <input id="userInp" type="number" />
+          </div>
+          <div class="btn-area">
+            <button id="check" class="btnS">Check !!</button>
+            <button id="again" class="btnS">Play again</button>
+          </div>
+        </div>
+        <div class="score-area">
+          <span id="brainIt" class="brain-text">BRAIN IT 🧠</span>
+          <span class="score-value"
+            >Score: <span on id="scoreValue">20</span></span
+          >
+          <span class="score-value">Hight Score: <span id="hightScoreValue">0</span></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
